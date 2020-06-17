@@ -8,9 +8,9 @@ npm run docs:build
 
 git init
 git add .
-git commit -m "master1"
+git commit -m "master"
 
-# 如果发布到 https://<USERNAME>.github.io
+# 如果发布到 master
 git push -f git@github.com:yangxianpei/Learn-notes.git master
 
 echo '发布子分支'
@@ -18,8 +18,8 @@ echo '发布子分支'
 cd docs/.vuepress/build
 git init
 git add -A
-git commit -m 'gh-pages1'
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
+git commit -m 'gh-pages'
+# 如果发布到 gh-pages
 git push -f git@github.com:yangxianpei/Learn-notes.git master:gh-pages
 
 cd -
