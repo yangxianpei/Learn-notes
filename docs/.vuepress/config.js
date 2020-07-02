@@ -28,7 +28,7 @@ module.exports = {
     sidebar: {
       "/notes/js": [
         {
-          title: "js",
+          title: "javaScript 进阶",
           collapsable: false,
           children: ["/notes/js/js", "/notes/js/promise"],
         },
