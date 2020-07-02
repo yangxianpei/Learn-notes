@@ -2,14 +2,21 @@ module.exports = {
   title: "学习笔记", // 设置网站标题
   description: "构建自己的前端体系", //描述
   base: "/Learn-notes/",
-  dest: './docs/.vuepress/build', // 设置输出目录
+  dest: "./docs/.vuepress/build", // 设置输出目录
   port: 1234, //端口
   themeConfig: {
     //主题配置
     nav: [
+      // {
+      //   text: "前端笔记",
+      //   link: "/components/basic/layout",
+      // }, // 导航条
       {
         text: "前端笔记",
-        link: "/components/basic/layout",
+        items:[
+          { text: "js", link: "/notes/js/js"},
+          { text: "node", link: "/notes/node/node" }
+        ]
       }, // 导航条
       {
         text: "个人随笔",
@@ -19,11 +26,18 @@ module.exports = {
     ],
     // 为以下路由添加侧边栏
     sidebar: {
-      "/components": [
+      "/notes/js": [
         {
-          title: "浏览器知识",
+          title: "js",
           collapsable: false,
-          children: ["/components/basic/layout", "/components/basic/aa"],
+          children: ["/notes/js/js", "/notes/js/promise"],
+        },
+      ],
+      "/notes/node": [
+        {
+          title: "node",
+          collapsable: false,
+          children: ["/notes/node/node"],
         },
       ],
       "/myself": [
