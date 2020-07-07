@@ -15,7 +15,8 @@ module.exports = {
         text: "前端笔记",
         items:[
           { text: "js", link: "/notes/js/js"},
-          { text: "node", link: "/notes/node/node" }
+          { text: "node", link: "/notes/node/node" },
+          { text: "浏览器", link: "/notes/browser/eventLoop" }
         ]
       }, // 导航条
       {
@@ -38,6 +39,13 @@ module.exports = {
           title: "node",
           collapsable: false,
           children: ["/notes/node/node"],
+        },
+      ],
+      "/notes/browser": [
+        {
+          title: "浏览器",
+          collapsable: false,
+          children: ["/notes/browser/eventLoop"],
         },
       ],
       "/myself": [
