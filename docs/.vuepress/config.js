@@ -52,7 +52,7 @@ module.exports = {
         {
           title: "个人随笔",
           collapsable: false,
-          children: ["/myself/record/t", "/myself/record/d"],
+          children: ["/myself/record/t", "/myself/record/d", "/myself/record/eslint"],
         },
       ],
     },
