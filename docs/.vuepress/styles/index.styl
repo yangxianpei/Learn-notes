@@ -1,0 +1,39 @@
+.language-sh.extra-class::after, .language-js.extra-class::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border-radius: 50%;
+    background: #ff4742;
+    width: 10px;
+    height: 10px;
+}
+
+.language-sh>code::after, .language-js>code::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #b300eb;
+}
+
+.language-sh>code::before, .language-js>code::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fcd019;
+}
+
+.theme-container {
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACFJREFUeNpiZGBg4GegAsBlCD8TqSYNQg2Mo6FEBAAIMACdPABtrSW/IQAAAABJRU5ErkJggg==');
+    min-height: 100vh;
+}

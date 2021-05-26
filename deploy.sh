@@ -8,7 +8,7 @@ npm run docs:build
 
 git init
 git add .
-git commit -m "提交eslint.md"
+git commit -m "修改主题颜色"
 
 # 如果发布到 master
 git push -f git@github.com:yangxianpei/Learn-notes.git master
@@ -18,7 +18,7 @@ echo '发布子分支'
 cd docs/.vuepress/build
 git init
 git add -A
-git commit -m '提交eslint.md'
+git commit -m '修改主题颜色'
 # 如果发布到 gh-pages
 git push -f git@github.com:yangxianpei/Learn-notes.git master:gh-pages
 
