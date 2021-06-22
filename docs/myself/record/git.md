@@ -1,4 +1,4 @@
-## git 常用命令
+# git 常用命令
 ```sh
 # 初始化
 git init

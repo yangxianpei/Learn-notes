@@ -13,48 +13,51 @@ module.exports = {
       // }, // 导航条
       {
         text: "前端笔记",
-        items:[
-          { text: "js", link: "/notes/js/js"},
-          { text: "node", link: "/notes/node/node" },
-          { text: "浏览器", link: "/notes/browser/eventLoop" }
+        items: [{
+            text: "js",
+            link: "/notes/js/js"
+          },
+          {
+            text: "node",
+            link: "/notes/node/node"
+          },
+          {
+            text: "浏览器",
+            link: "/notes/browser/eventLoop"
+          }
         ]
       }, // 导航条
       {
         text: "个人随笔",
         link: "/myself/record/t",
       },
-      { text: "github", link: "https://github.com/yangxianpei" },
+      {
+        text: "github",
+        link: "https://github.com/yangxianpei"
+      },
     ],
     // 为以下路由添加侧边栏
     sidebar: {
-      "/notes/js": [
-        {
-          title: "javaScript 进阶",
-          collapsable: false,
-          children: ["/notes/js/js", "/notes/js/promise"],
-        },
-      ],
-      "/notes/node": [
-        {
-          title: "node",
-          collapsable: false,
-          children: ["/notes/node/node"],
-        },
-      ],
-      "/notes/browser": [
-        {
-          title: "浏览器",
-          collapsable: false,
-          children: ["/notes/browser/eventLoop"],
-        },
-      ],
-      "/myself": [
-        {
-          title: "个人随笔",
-          collapsable: false,
-          children: ["/myself/record/t", "/myself/record/git", "/myself/record/eslint"],
-        },
-      ],
+      "/notes/js": [{
+        title: "javaScript 进阶",
+        collapsable: false,
+        children: ["/notes/js/js", "/notes/js/promise"],
+      }, ],
+      "/notes/node": [{
+        title: "node",
+        collapsable: false,
+        children: ["/notes/node/node"],
+      }, ],
+      "/notes/browser": [{
+        title: "浏览器",
+        collapsable: false,
+        children: ["/notes/browser/eventLoop"],
+      }, ],
+      "/myself": [{
+        title: "个人随笔",
+        collapsable: false,
+        children: ["/myself/record/t", "/myself/record/git", "/myself/record/eslint", "/myself/record/echart"],
+      }, ],
     },
   },
 };
