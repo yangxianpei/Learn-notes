@@ -9,7 +9,7 @@ echo '准备'
 git init
 git add .
 git commit -m "2021/11/9"
-
+echo '发布主分支'
 # 如果发布到 master
 git push -f git@github.com:yangxianpei/Learn-notes.git master
 
