@@ -5,7 +5,7 @@ set -e
 
 # 生成静态文件
 npm run docs:build
-echo '准备git'
+echo '准备'
 git init
 git add .
 git commit -m "修改主题颜色"
@@ -20,6 +20,7 @@ git init
 git add -A
 git commit -m '修改主题颜色'
 # 如果发布到 gh-pages
+echo '开始子分支上传'
 git push -f git@github.com:yangxianpei/Learn-notes.git master:gh-pages
-
+echo '子分支上传结束'
 cd -
