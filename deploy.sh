@@ -8,7 +8,7 @@ npm run docs:build
 echo '准备'
 git init
 git add .
-git commit -m "修改主题颜色"
+git commit -m "2021/11/9"
 
 # 如果发布到 master
 git push -f git@github.com:yangxianpei/Learn-notes.git master
@@ -18,7 +18,7 @@ echo '发布子分支'
 cd docs/.vuepress/build
 git init
 git add -A
-git commit -m '修改主题颜色'
+git commit -m '2021/11/9'
 # 如果发布到 gh-pages
 echo '开始子分支上传'
 git push -f git@github.com:yangxianpei/Learn-notes.git master:gh-pages
