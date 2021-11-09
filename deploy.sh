@@ -5,7 +5,7 @@ set -e
 
 # 生成静态文件
 npm run docs:build
-
+echo '准备git'
 git init
 git add .
 git commit -m "修改主题颜色"
