@@ -14,17 +14,21 @@ module.exports = {
       {
         text: "前端笔记",
         items: [{
-            text: "js",
-            link: "/notes/js/js"
-          },
-          {
-            text: "node",
-            link: "/notes/node/node"
-          },
-          {
-            text: "浏览器",
-            link: "/notes/browser/eventLoop"
-          }
+          text: "js",
+          link: "/notes/js/js"
+        },
+        {
+          text: "node",
+          link: "/notes/node/node"
+        },
+        {
+          text: "浏览器",
+          link: "/notes/browser/eventLoop"
+        },
+        {
+          text: "react笔记",
+          link: "/notes/react/react"
+        }
         ]
       }, // 导航条
       {
@@ -42,22 +46,27 @@ module.exports = {
         title: "javaScript 进阶",
         collapsable: false,
         children: ["/notes/js/js", "/notes/js/promise"],
-      }, ],
+      },],
       "/notes/node": [{
         title: "node",
         collapsable: false,
         children: ["/notes/node/node"],
-      }, ],
+      },],
       "/notes/browser": [{
         title: "浏览器",
         collapsable: false,
         children: ["/notes/browser/eventLoop"],
-      }, ],
+      },],
+      "/notes/react": [{
+        title: "react笔记",
+        collapsable: false,
+        children: ["/notes/react/react","/notes/react/commonError"],
+      },],
       "/myself": [{
         title: "个人随笔",
         collapsable: false,
-        children: ["/myself/record/t", "/myself/record/git", "/myself/record/eslint", "/myself/record/echart","/myself/record/components"],
-      }, ],
+        children: ["/myself/record/t", "/myself/record/git", "/myself/record/eslint", "/myself/record/echart", "/myself/record/components"],
+      },],
     },
   },
 };
