@@ -13,22 +13,27 @@ module.exports = {
       // }, // 导航条
       {
         text: "前端笔记",
-        items: [{
-          text: "js",
-          link: "/notes/js/js"
-        },
-        {
-          text: "node",
-          link: "/notes/node/node"
-        },
-        {
-          text: "浏览器",
-          link: "/notes/browser/eventLoop"
-        },
-        {
-          text: "react笔记",
-          link: "/notes/react/react"
-        }
+        items: [
+          {
+            text: "css",
+            link: "/notes/css/css"
+          },
+          {
+            text: "js",
+            link: "/notes/js/js"
+          },
+          {
+            text: "node",
+            link: "/notes/node/node"
+          },
+          {
+            text: "浏览器",
+            link: "/notes/browser/eventLoop"
+          },
+          {
+            text: "react笔记",
+            link: "/notes/react/react"
+          }
         ]
       }, // 导航条
       {
@@ -60,7 +65,7 @@ module.exports = {
       "/notes/react": [{
         title: "react笔记",
         collapsable: false,
-        children: ["/notes/react/react","/notes/react/commonError"],
+        children: ["/notes/react/react", "/notes/react/commonError"],
       },],
       "/myself": [{
         title: "个人随笔",
