@@ -18,7 +18,7 @@ echo '发布子分支'
 cd docs/.vuepress/build
 git init
 git add -A
-git commit -m '2022/6/21 添加css'
+git commit -m '2023/12/13 回归'
 # 如果发布到 gh-pages
 echo '开始子分支上传'
 git push -f git@github.com:yangxianpei/Learn-notes.git master:gh-pages
