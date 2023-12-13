@@ -37,6 +37,15 @@ module.exports = {
         ]
       }, // 导航条
       {
+        text: "算法记录",
+        items: [
+          {
+            text: "排序",
+            link: "/algorithm/sort/sort"
+          },
+        ]
+      },
+      {
         text: "个人随笔",
         link: "/myself/record/t",
       },
@@ -47,6 +56,11 @@ module.exports = {
     ],
     // 为以下路由添加侧边栏
     sidebar: {
+      "/algorithm/sort/sort": [{
+        title: "排序",
+        collapsable: false,
+        children: ["/algorithm/sort/sort"],
+      },],
       "/notes/js": [{
         title: "javaScript 进阶",
         collapsable: false,
