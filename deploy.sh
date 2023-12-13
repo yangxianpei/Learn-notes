@@ -16,9 +16,10 @@ git push -f git@github.com:yangxianpei/Learn-notes.git master
 echo '发布子分支'
 # 进入生成的文件夹
 cd docs/.vuepress/build
-git init
+echo '进入build目录'
+# git init
 git add -A
-git commit -m '2023/12/13 less笔记3333'
+git commit -m '2023/12/13 less笔记4'
 # 如果发布到 gh-pages
 echo '开始子分支上传'
 git push -f git@github.com:yangxianpei/Learn-notes.git master:gh-pages
