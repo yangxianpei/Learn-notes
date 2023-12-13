@@ -84,7 +84,7 @@ module.exports = {
       "/myself": [{
         title: "个人随笔",
         collapsable: false,
-        children: ["/myself/record/t", "/myself/record/git", "/myself/record/eslint", "/myself/record/echart", "/myself/record/components"],
+        children: ["/myself/record/t", "/myself/record/git", "/myself/record/eslint", "/myself/record/echart", "/myself/record/components", "/myself/record/less",],
       },],
     },
   },
